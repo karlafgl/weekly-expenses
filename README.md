@@ -6,3 +6,5 @@ Simple app that manages your expenses per week.
   
   
  It has cool features, the user interface is really friendly. 
+ 
+ Have a look: https://karlafgl.github.io/weekly-expenses/.
