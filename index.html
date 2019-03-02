@@ -8,29 +8,29 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
 
-    <title>Gasto Semanal</title>
+    <title>Weekly Expenses Report</title>
   </head>
   <body>
     <div class="container">
         <header>
-                <h1 class="text-center">Gasto Semanal</h1>
+                <h1 class="text-center">Weekly Expenses Report</h1>
         </header>
         <section class="contenido-principal">
             <div class="row">
                 <div class="col ">
                     <div class="contenido primario">
-                        <h2 class="text-center">Añade tus gastos aqui</h2>
+                        <h2 class="text-center">Add your expenses here</h2>
                             <form id="agregar-gasto" action="#">
                                 <div class="form-group">
-                                    <label for="gasto">Gasto:</label>
-                                    <input type="text" class="form-control" id="gasto" placeholder="Nombre Gasto">
+                                    <label for="gasto">Expenses:</label>
+                                    <input type="text" class="form-control" id="gasto" placeholder="Expense Name">
                                 </div>
                                 <div class="form-group">
-                                    <label for="cantidad">Cantidad:</label>
-                                    <input type="text" class="form-control" id="cantidad" placeholder="Cantidad en $">
+                                    <label for="cantidad">Amount:</label>
+                                    <input type="text" class="form-control" id="cantidad" placeholder="Amount in $">
                                 </div>
                                 
-                                <button type="submit" class="btn btn-primary">Agregar</button>
+                                <button type="submit" class="btn btn-primary">Add</button>
                             </form>
                         
                     </div> <!--.contenido-->
@@ -39,17 +39,17 @@
                 <div class="col">
                     <div class="contenido secundario">
                         
-                        <h2 class="text-center">Listado</h2>
+                        <h2 class="text-center">Expenses List</h2>
 
                         <div id="gastos">
                             <ul class="list-group"></ul>
                         </div>
                         <div id="presupuesto" class="presupuesto">
                             <div class="alert alert-primary">
-                                <p>Presupuesto: $ <span id="total"></span> </p>
+                                <p>Budget: $ <span id="total"></span> </p>
                             </div>
                             <div class="restante alert alert-success">
-                                <p>Restante: $ <span id="restante"></span></p>
+                                <p>Final Balance: $ <span id="restante"></span></p>
                             </div>
                         </div> <!--.presupuesto-->
                     </div> <!--.contenido-->
@@ -57,6 +57,8 @@
             </div> <!--.row-->
         </section>
     </div>
+
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
